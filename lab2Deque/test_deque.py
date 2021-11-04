@@ -66,10 +66,3 @@ class TestTheDeque(unittest.TestCase):
         self.test_que.delete_last_right()
         list_que = self.test_que.deque_into_list()
         self.assertEqual(list_que, [15, 12, 8, 3, 4])
-
-
-
-
-
-
-
